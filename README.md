@@ -20,14 +20,15 @@
 # 开源项目和作品
 
  - [Simple Note](https://github.com/ExcaliburZ/SimpleNote)
- 采用MVP架构设计的笔记型APP,实现了用户友好的增删改查操作,复选模式和提醒.
- 	- MVP架构设计,项目结构清晰,耦合度低,各层之间接口通信
- 	- 代码冗余度低,实现了新建笔记与修改笔记间复用Fragment 
+ 采用MVP架构设计和Material Design的笔记型APP,实现了用户友好的增删改查操作,复选模式和提醒.
+ 	- MVP架构设计,项目结构清晰,耦合度低,各层之间接口通信.
+ 	- 代码冗余度低,实现了新建笔记与修改笔记间复用Fragment.
+ 	- 使用RxJava取代AsyncTask进行异步操作,使用RxBus作为事件总线.
 
 - [ImitateBilibili](https://github.com/ExcaliburZ/ImitateBilibili)
   仿制的BiliBili客户端,采用Material Design设计.实现了主界面的数据展示,运行时动态换肤以及视频的播放与控制,三个模块.使用Volley网络请求,Picasso加载图片.
-	- 主界面的数据展示:解决了多个ViewGroup之间的滑动冲突问题
-	- 运行时动态换肤:通过自定义常用控件,实现不重启Activity换肤
+	- 主界面的数据展示:解决了多个ViewGroup之间的滑动冲突问题.
+	- 运行时动态换肤:通过自定义常用控件,实现不重启Activity换肤.
 	- 视频的播放与控制:自定义播放时控制面板,实现了如屏幕锁,手势控制音量与亮度,手势调节进度条等功能.
 
 
